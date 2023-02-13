@@ -9,6 +9,10 @@ function getBotResponse(input){
     else if(input == "rock"){
         return "paper";
     }
+    else if(input == "sex"){
+        return "i bet u r a virgin lets talk when u grow up";
+    }
+    
     else if(input == "paper"){
         return "scissors";
     }
