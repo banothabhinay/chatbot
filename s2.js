@@ -1,6 +1,6 @@
 function getBotResponse(input){
     if(input=="hi"){
-        return "hi bruh";
+        return "hello";
 
     }
     else if(input == "what are you doing"){
@@ -9,8 +9,8 @@ function getBotResponse(input){
     else if(input == "rock"){
         return "paper";
     }
-    else if(input == "sex"){
-        return "i bet u r a virgin lets talk when u grow up";
+    else if(input == "bye"){
+        return "Bye! nice talking to you";
     }
     
     else if(input == "paper"){
@@ -20,7 +20,7 @@ function getBotResponse(input){
         return "rock";
     }
     else{
-        return "idk wt u r saying im still learning";
+        return "i dont understand wt u r saying im still learning, sorry";
     }
 
 }
