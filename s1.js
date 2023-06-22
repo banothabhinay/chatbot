@@ -19,10 +19,11 @@ function getTime(){
 }
 
 function firstBotMessage() {
-    let firstMessage = "Hello there!"
+     let time = getTime();
+    let firstMessage = time;
     document.getElementById("botStarterMessage").innerHTML = '<p class="boxText"><span>' + firstMessage + '</span></p>';
 
-    let time = getTime();
+   
 
 
     $("#chat-timestamp").append(time);
